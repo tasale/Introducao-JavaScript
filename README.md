@@ -1,1 +1,1 @@
-# Curso-NodeJS-JavaScript
+# Curso de introdução à linguagem JavaScript
