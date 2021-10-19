@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Componentes </title>
+        <!--css-->
+        <link href="css\bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Popover</h1>
+            <button class="btn btn-primary" title="Título do Popover" data-toggle="popover" data-content="Aqui é conteúdo do meu popover bla bla bla" data-placement="bottom">Meu popover</button>
+        <br>
+        <br>
+        <br>
+            <h1>Tootltip</h1>
+            <button class="btn btn-success" data-toggle="tootltip" title="Meu primeiro Tootltip" data-content="Aqui é o conteúdo do meu primeiro tooltip" data-placement="right">Meu Tootltip</button>
+        <br>
+        <br>
+        <br>
+        </div>
+
+
+        <footer>
+        <!--js-->
+            <script src="js\jquery.js"></script>
+            <script src="js\bootstrap.bundle.min.js"></script>
+            <script>
+                $(function(){
+                    $('[data-toggle="popover"]').popover()
+                    $('[data-toggle="tooltip"]').tooltip()
+                });
+            </script>
+    </body>
+</html>
